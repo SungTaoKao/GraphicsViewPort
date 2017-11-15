@@ -1,9 +1,12 @@
 public class LoadFileButton{
-   protected String display;
-   protected int x = 0;
-   protected int y = 0;
-   protected int w = 100;
-   protected int h = 100;
+   private String display = "label";
+   private int x = 0;
+   private int y = 0;
+   private int w = 100;
+   private int h = 100;
+   private String[][] matrix;
+   
+   public LoadFileButton(){}
    
    public LoadFileButton(String display){
      this.display = display;
@@ -21,5 +24,39 @@ public class LoadFileButton{
       this.y = y;
       this.w = w;
       this.h = h;
+   }
+   
+   public void drawMe(){
+     fill(0);
+     rect(x, y, w, h); 
+     fill(255);
+     textSize(20);
+     text(display, x + 20, y + 20);
+   }
+   
+   public void onClick(){
+     selectInput("Choose a file to process", "processFile", null, this); 
+   }
+   
+   public void processFile(File selection){
+     
+     try{
+       String[] lines = loadStrings(selection);
+       
+       int ly = lines.length;
+       int lx = split(lines[0], ",").length;
+       matrix = new String[lx][ly];
+       
+       for(int i = 0; i < lines.length; i++){
+         String[] line = split(lines[i], ',');
+         for(int j = 0; j < line.length; j++){
+           matrix[j][i] = line[j];
+           print(line[j]);
+         }
+         println("");
+       }
+     } catch (Exception e){
+       print("Error: Invalid Selection");
+     }
    }
 }
