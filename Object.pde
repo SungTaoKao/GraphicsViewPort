@@ -8,9 +8,25 @@ public class Object{
    this.c = c;
   }
   
+  public float[][] parseMatrixStoF(String[][] array2D){
+    
+    float[][] temp;
+    temp = new float[array2D.length][array2D[0].length];
+    
+    for(int i = 0; i < temp[0].length; i++){
+      for(int j = 0; j < temp.length; j++){
+        temp[j][i] = Float.parseFloat(array2D[j][i]);
+        println("points: j=" + j + ", i=" + i + " : " + temp[j][i]);
+      }
+    }
+    return  temp;
+  }
+  
   public void drawShape(){
     
+    try{
     beginShape(LINE);
+    
     //a,b
     vertex(vertices[0][0], vertices[1][0]);
     vertex(vertices[0][12], vertices[1][12]);
@@ -222,20 +238,10 @@ public class Object{
     //aj,ak
     vertex(vertices[0][10], vertices[1][10]);
     vertex(vertices[0][11], vertices[1][11]);
-    
+   
    endShape();
-  }
-  
-  public float[][] parseMatrixStoF(String[][] array2D){
-    
-    float[][] temp;
-    temp = new float[array2D[0].length][array2D.length];
-    
-    for(int i = 0; i < temp[0].length; i++){
-      for(int j = 0; j < temp.length; j++){
-        temp[j][i] = Float.parseFloat(array2D[j][i]);
-      }
+    } catch(Exception e){
+      println("Error occurred building shape");
     }
-    return  temp;
   }
 }
