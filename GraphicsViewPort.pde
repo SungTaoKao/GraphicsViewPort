@@ -1,7 +1,7 @@
 int screenWidth = 800;
 int screenHeight = 600;
 int sizeVariable = 3;
-float screenVariable = 0.5;
+float screenVariable = 0.4;
 boolean onAdd;
 boolean onClear;
 int colorCounter = 0;

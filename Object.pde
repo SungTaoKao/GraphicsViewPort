@@ -246,13 +246,11 @@ public class Object{
       vertex(vertices[0][11], vertices[1][11]);
      
       endShape();
-      println("End of build shape");
       
     } catch(Exception e){
       println("Error occurred building shape");
     } finally{
        popMatrix(); 
-       println("Finished building");
     }
   }
 }
