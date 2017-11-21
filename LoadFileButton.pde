@@ -35,7 +35,7 @@ public class LoadFileButton{
    }
    
    public void onClick(){
-     selectInput("Choose a file to process", "processFile", null, this); 
+     selectInput("Choose a file to process", "processFile", null, this);
    }
    
    public void processFile(File selection){
@@ -51,10 +51,11 @@ public class LoadFileButton{
          String[] line = split(lines[i], ',');
          for(int j = 0; j < line.length; j++){
            matrix[j][i] = line[j];
-           print(line[j]);
+           //print(line[j]);
          }
-         println("");
+         //println("");
        }
+       createObject();
      } catch (Exception e){
        print("Error: Invalid Selection");
      }
