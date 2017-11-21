@@ -21,13 +21,18 @@ public class ClearButton{
   }
   
   public void drawMe(){
+    stroke(0);
     fill(255);
     rect(x, y, w, h);
     fill(0);
-    text(display, x + 20, x + 20);
+    textSize(20);
+    text(display, x + 20, y + 30);
   }
   
-  public void onPress(){
+  public void onClick(LoadFileButton lfb){
+    lfb.objects.clear();
+    colorCounter = 0;
+    stroke(0);
     fill(255);
     rect(0, 0, screenWidth, screenHeight);
   }

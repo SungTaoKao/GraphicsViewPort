@@ -5,6 +5,7 @@ public class LoadFileButton{
    private int w = 100;
    private int h = 100;
    private String[][] matrix;
+   private ArrayList<Object> objects = new ArrayList<Object>();
    
    public LoadFileButton(){}
    
@@ -28,11 +29,18 @@ public class LoadFileButton{
    
    public void drawMe(){
      fill(0);
+     stroke(0);
      rect(x, y, w, h); 
      fill(255);
      textSize(20);
-     text(display, x + 20, y + 20);
+     text(display, x + 30, y + 30);
    }
+   
+  public void createObject(){
+    Object object = new Object(matrix, colors[colorCounter]);
+    objects.add(object);
+    colorCounter++;
+  }
    
    public void onClick(){
      selectInput("Choose a file to process", "processFile", null, this);
