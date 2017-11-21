@@ -10,10 +10,13 @@ void settings(){
 
 }
 void setup(){
+  
   background(255);
   add = new LoadFileButton();
   add.drawMe();
+  
 }
+
 
 void draw(){
   updateMouse();
