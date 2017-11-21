@@ -26,217 +26,218 @@ public class Object{
     
     try{
     beginShape(LINE);
+    
     //a,b
-    vertex(vertices[0][0], vertices[0][1]);
-    vertex(vertices[12][0], vertices[12][1]);
+    vertex(vertices[0][0], vertices[1][0]);
+    vertex(vertices[0][12], vertices[1][12]);
    
     //a,t
-    vertex(vertices[0][0], vertices[0][1]);
-    vertex(vertices[30][0], vertices[30][1]);
+    vertex(vertices[0][0], vertices[1][0]);
+    vertex(vertices[0][30], vertices[1][30]);
     
     //a,n
-    vertex(vertices[0][0], vertices[0][1]);
-    vertex(vertices[24][0], vertices[24][1]);
+    vertex(vertices[0][0], vertices[1][0]);
+    vertex(vertices[0][24], vertices[1][24]);
     
     //b,c
-    vertex(vertices[12][0], vertices[12][1]);
-    vertex(vertices[13][0], vertices[13][1]);
+    vertex(vertices[0][12], vertices[1][12]);
+    vertex(vertices[0][13], vertices[1][13]);
     
     //b,e
-    vertex(vertices[12][0], vertices[12][1]);
-    vertex(vertices[15][0], vertices[15][1]);
+    vertex(vertices[0][12], vertices[1][12]);
+    vertex(vertices[0][15], vertices[1][15]);
     
     //c,d
-    vertex(vertices[13][0], vertices[13][1]);
-    vertex(vertices[14][0], vertices[14][1]);
+    vertex(vertices[0][13], vertices[1][13]);
+    vertex(vertices[0][14], vertices[1][14]);
     
     //c,r
-    vertex(vertices[13][0], vertices[13][1]);
-    vertex(vertices[28][0], vertices[28][1]);
+    vertex(vertices[0][13], vertices[1][13]);
+    vertex(vertices[0][28], vertices[1][28]);
     
     //d,e
-    vertex(vertices[14][0], vertices[14][1]);
-    vertex(vertices[15][0], vertices[15][1]);
+    vertex(vertices[0][14], vertices[1][14]);
+    vertex(vertices[0][15], vertices[1][15]);
     
     //d,g
-    vertex(vertices[14][0], vertices[14][1]);
-    vertex(vertices[17][0], vertices[17][1]);
+    vertex(vertices[0][14], vertices[1][14]);
+    vertex(vertices[0][17], vertices[1][17]);
     
     //e,f
-    vertex(vertices[15][0], vertices[15][1]);
-    vertex(vertices[16][0], vertices[16][1]);
+    vertex(vertices[0][15], vertices[1][15]);
+    vertex(vertices[0][16], vertices[1][16]);
     
     //f,g
-    vertex(vertices[16][0], vertices[16][1]);
-    vertex(vertices[17][0], vertices[17][1]);
+    vertex(vertices[0][16], vertices[1][16]);
+    vertex(vertices[0][17], vertices[1][17]);
     
     //f,i
-    vertex(vertices[16][0], vertices[16][1]);
-    vertex(vertices[19][0], vertices[19][1]);
+    vertex(vertices[0][16], vertices[1][16]);
+    vertex(vertices[0][19], vertices[1][19]);
     
     //g,h
-    vertex(vertices[17][0], vertices[17][1]);
-    vertex(vertices[18][0], vertices[18][1]);
+    vertex(vertices[0][17], vertices[1][17]);
+    vertex(vertices[0][18], vertices[1][18]);
     
     //h,i
-    vertex(vertices[18][0], vertices[18][1]);
-    vertex(vertices[19][0], vertices[19][1]);
+    vertex(vertices[0][18], vertices[1][18]);
+    vertex(vertices[0][19], vertices[1][19]);
     
     //h,k
-    vertex(vertices[18][0], vertices[18][1]);
-    vertex(vertices[21][0], vertices[21][1]);
+    vertex(vertices[0][18], vertices[1][18]);
+    vertex(vertices[0][21], vertices[1][21]);
     
     //i,j
-    vertex(vertices[19][0], vertices[19][1]);
-    vertex(vertices[20][0], vertices[20][1]);
+    vertex(vertices[0][19], vertices[1][19]);
+    vertex(vertices[0][20], vertices[1][20]);
     
     //j,k
-    vertex(vertices[20][0], vertices[20][1]);
-    vertex(vertices[21][0], vertices[21][1]);
+    vertex(vertices[0][20], vertices[1][20]);
+    vertex(vertices[0][21], vertices[1][21]);
     
     //j,m
-    vertex(vertices[20][0], vertices[20][1]);
-    vertex(vertices[23][0], vertices[23][1]);
+    vertex(vertices[0][20], vertices[1][20]);
+    vertex(vertices[0][23], vertices[1][23]);
     
     //k,l
-    vertex(vertices[21][0], vertices[21][1]);
-    vertex(vertices[22][0], vertices[22][1]);
+    vertex(vertices[0][21], vertices[1][21]);
+    vertex(vertices[0][22], vertices[1][22]);
     
     //l,m
-    vertex(vertices[22][0], vertices[22][1]);
-    vertex(vertices[23][0], vertices[23][1]);
+    vertex(vertices[0][22], vertices[1][22]);
+    vertex(vertices[0][23], vertices[1][23]);
     
     //l,q
-    vertex(vertices[22][0], vertices[22][1]);
-    vertex(vertices[27][0], vertices[27][1]);
+    vertex(vertices[0][22], vertices[1][22]);
+    vertex(vertices[0][27], vertices[1][27]);
     
     //m,n
-    vertex(vertices[23][0], vertices[23][1]);
-    vertex(vertices[24][0], vertices[24][1]);
+    vertex(vertices[0][23], vertices[1][23]);
+    vertex(vertices[0][24], vertices[1][24]);
     
     //n,o
-    vertex(vertices[24][0], vertices[24][1]);
-    vertex(vertices[25][0], vertices[25][1]);
+    vertex(vertices[0][24], vertices[1][24]);
+    vertex(vertices[0][25], vertices[1][25]);
     
     //o,p
-    vertex(vertices[25][0], vertices[25][1]);
-    vertex(vertices[26][0], vertices[26][1]);
+    vertex(vertices[0][25], vertices[1][25]);
+    vertex(vertices[0][26], vertices[1][26]);
     
     //o,ab
-    vertex(vertices[25][0], vertices[25][1]);
-    vertex(vertices[2][0], vertices[2][1]);
+    vertex(vertices[0][25], vertices[1][25]);
+    vertex(vertices[0][2], vertices[1][2]);
     
     //p,q
-    vertex(vertices[26][0], vertices[26][1]);
-    vertex(vertices[27][0], vertices[27][1]);
+    vertex(vertices[0][26], vertices[1][26]);
+    vertex(vertices[0][27], vertices[1][27]);
     
     //p,aa
-    vertex(vertices[26][0], vertices[26][1]);
-    vertex(vertices[1][0], vertices[1][1]);
+    vertex(vertices[0][26], vertices[1][26]);
+    vertex(vertices[0][1], vertices[1][1]);
     
     //q,r
-    vertex(vertices[27][0], vertices[27][1]);
-    vertex(vertices[28][0], vertices[28][1]);
+    vertex(vertices[0][27], vertices[1][27]);
+    vertex(vertices[0][28], vertices[1][28]);
     
     //r,s
-    vertex(vertices[28][0], vertices[28][1]);
-    vertex(vertices[29][0], vertices[29][1]);
+    vertex(vertices[0][28], vertices[1][28]);
+    vertex(vertices[0][29], vertices[1][29]);
     
     //s,t
-    vertex(vertices[29][0], vertices[29][1]);
-    vertex(vertices[30][0], vertices[30][1]);
+    vertex(vertices[0][29], vertices[1][29]);
+    vertex(vertices[0][30], vertices[1][30]);
     
     //s,v
-    vertex(vertices[29][0], vertices[29][1]);
-    vertex(vertices[32][0], vertices[32][1]);
+    vertex(vertices[0][29], vertices[1][29]);
+    vertex(vertices[0][32], vertices[1][32]);
     
     //t,u
-    vertex(vertices[30][0], vertices[30][1]);
-    vertex(vertices[31][0], vertices[31][1]);
+    vertex(vertices[0][30], vertices[1][30]);
+    vertex(vertices[0][31], vertices[1][31]);
     
     //u,v
-    vertex(vertices[31][0], vertices[31][1]);
-    vertex(vertices[32][0], vertices[32][1]);
+    vertex(vertices[0][31], vertices[1][31]);
+    vertex(vertices[0][32], vertices[1][32]);
     
     //u,x
-    vertex(vertices[31][0], vertices[31][1]);
-    vertex(vertices[34][0], vertices[34][1]);
+    vertex(vertices[0][31], vertices[1][31]);
+    vertex(vertices[0][34], vertices[1][34]);
     
     //v,w
-    vertex(vertices[32][0], vertices[32][1]);
-    vertex(vertices[33][0], vertices[33][1]);
+    vertex(vertices[0][32], vertices[1][32]);
+    vertex(vertices[0][33], vertices[1][33]);
     
     //w,x
-    vertex(vertices[33][0], vertices[33][1]);
-    vertex(vertices[34][0], vertices[34][1]);
+    vertex(vertices[0][33], vertices[1][33]);
+    vertex(vertices[0][34], vertices[1][34]);
     
     //w,z
-    vertex(vertices[33][0], vertices[33][1]);
-    vertex(vertices[36][0], vertices[36][1]);
+    vertex(vertices[0][33], vertices[1][33]);
+    vertex(vertices[0][36], vertices[1][36]);
     
     //x,y
-    vertex(vertices[34][0], vertices[34][1]);
-    vertex(vertices[35][0], vertices[35][1]);
+    vertex(vertices[0][34], vertices[1][34]);
+    vertex(vertices[0][35], vertices[1][35]);
     
     //y,z
-    vertex(vertices[35][0], vertices[35][1]);
-    vertex(vertices[36][0], vertices[36][1]);
+    vertex(vertices[0][35], vertices[1][35]);
+    vertex(vertices[0][36], vertices[1][36]);
     
     //y,ab
-    vertex(vertices[35][0], vertices[35][1]);
-    vertex(vertices[2][0], vertices[2][1]);
+    vertex(vertices[0][35], vertices[1][35]);
+    vertex(vertices[0][2], vertices[1][2]);
     
     //z,aa
-    vertex(vertices[36][0], vertices[36][1]);
-    vertex(vertices[1][0], vertices[1][1]);
+    vertex(vertices[0][36], vertices[1][36]);
+    vertex(vertices[0][1], vertices[1][1]);
     
     //aa,ab
-    vertex(vertices[1][0], vertices[1][1]);
-    vertex(vertices[2][0], vertices[2][1]);
+    vertex(vertices[0][1], vertices[1][1]);
+    vertex(vertices[0][2], vertices[1][2]);
     
     //ac,ad
-    vertex(vertices[3][0], vertices[3][1]);
-    vertex(vertices[4][0], vertices[4][1]);
+    vertex(vertices[0][3], vertices[1][3]);
+    vertex(vertices[0][4], vertices[1][4]);
     
     //ad,ae
-    vertex(vertices[4][0], vertices[4][1]);
-    vertex(vertices[5][0], vertices[5][1]);
+    vertex(vertices[0][4], vertices[1][4]);
+    vertex(vertices[0][5], vertices[1][5]);
     
     //ad,ag
-    vertex(vertices[4][0], vertices[4][1]);
-    vertex(vertices[7][0], vertices[7][1]);
+    vertex(vertices[0][4], vertices[1][4]);
+    vertex(vertices[0][7], vertices[1][7]);
     
     //ae,af
-    vertex(vertices[5][0], vertices[5][1]);
-    vertex(vertices[6][0], vertices[6][1]);
+    vertex(vertices[0][5], vertices[1][5]);
+    vertex(vertices[0][6], vertices[1][6]);
     
     //af,ag
-    vertex(vertices[6][0], vertices[6][1]);
-    vertex(vertices[7][0], vertices[7][1]);
+    vertex(vertices[0][6], vertices[1][6]);
+    vertex(vertices[0][7], vertices[1][7]);
     
     //ah,ai
-    vertex(vertices[8][0], vertices[8][1]);
-    vertex(vertices[9][0], vertices[9][1]);
+    vertex(vertices[0][8], vertices[1][8]);
+    vertex(vertices[0][9], vertices[1][9]);
     
     //ah,aj
-    vertex(vertices[8][0], vertices[8][1]);
-    vertex(vertices[10][0], vertices[10][1]);
+    vertex(vertices[0][8], vertices[1][8]);
+    vertex(vertices[0][10], vertices[1][10]);
     
     //ah,ak
-    vertex(vertices[8][0], vertices[8][1]);
-    vertex(vertices[11][0], vertices[11][1]);
+    vertex(vertices[0][8], vertices[1][8]);
+    vertex(vertices[0][11], vertices[1][11]);
     
     //ai,aj
-    vertex(vertices[9][0], vertices[9][1]);
-    vertex(vertices[10][0], vertices[10][1]);
+    vertex(vertices[0][9], vertices[1][9]);
+    vertex(vertices[0][10], vertices[1][10]);
     
     //ai,ak
-    vertex(vertices[9][0], vertices[9][1]);
-    vertex(vertices[11][0], vertices[11][1]);
+    vertex(vertices[0][9], vertices[1][9]);
+    vertex(vertices[0][11], vertices[1][11]);
     
     //aj,ak
-    vertex(vertices[10][0], vertices[10][1]);
-    vertex(vertices[11][0], vertices[11][1]);
+    vertex(vertices[0][10], vertices[1][10]);
+    vertex(vertices[0][11], vertices[1][11]);
    
    endShape();
     } catch(Exception e){
